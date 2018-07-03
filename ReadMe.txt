@@ -18,7 +18,7 @@ ViewModel is used extensively to handle Service call and to create synch between
 XCTest includes the methodology to test the asynch network call and check the ViewModel Class methods.
 
 Known Issues: 
-1. Collection View Layout is not exactly as per the 500px app. 
+1. Collection View Layout is not exactly as per the app. 
 2. ActivityIndicator position should be in Collection View Footer
  
 
