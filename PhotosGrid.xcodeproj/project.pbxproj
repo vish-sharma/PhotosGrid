@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF32F7EE20EACC9900F128FF /* CustomGridTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF32F7ED20EACC9900F128FF /* CustomGridTransition.swift */; };
+		BF36BA8820E4591C00DAC9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36BA8720E4591C00DAC9FD /* AppDelegate.swift */; };
+		BF36BA8D20E4591C00DAC9FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF36BA8B20E4591C00DAC9FD /* Main.storyboard */; };
+		BF36BA9020E4591C00DAC9FD /* PhotosGrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF36BA8E20E4591C00DAC9FD /* PhotosGrid.xcdatamodeld */; };
+		BF36BA9220E4591C00DAC9FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF36BA9120E4591C00DAC9FD /* Assets.xcassets */; };
+		BF36BA9520E4591C00DAC9FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF36BA9320E4591C00DAC9FD /* LaunchScreen.storyboard */; };
+		BF36BAA020E4591C00DAC9FD /* PhotosGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36BA9F20E4591C00DAC9FD /* PhotosGridTests.swift */; };
+		BF36BAAB20E4591C00DAC9FD /* PhotosGridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36BAAA20E4591C00DAC9FD /* PhotosGridUITests.swift */; };
+		BF36BABB20E4595E00DAC9FD /* PhotosHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36BABA20E4595E00DAC9FD /* PhotosHomeViewController.swift */; };
+		BF36BABD20E4598C00DAC9FD /* PhotosGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36BABC20E4598C00DAC9FD /* PhotosGridViewController.swift */; };
+		BF36BAC020E45AC300DAC9FD /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36BABE20E45AC300DAC9FD /* PhotosCollectionViewCell.swift */; };
+		BF36BAC120E45AC300DAC9FD /* PhotosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF36BABF20E45AC300DAC9FD /* PhotosCollectionViewCell.xib */; };
+		BF36BAE420E4B19600DAC9FD /* PhotosAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF36BAE320E4B19600DAC9FD /* PhotosAssets.xcassets */; };
+		BF510DBE20E97D3400D38FE0 /* PhotoGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF510DBD20E97D3400D38FE0 /* PhotoGridViewModel.swift */; };
+		BF510DC020E97D4F00D38FE0 /* PhotosAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF510DBF20E97D4F00D38FE0 /* PhotosAPIManager.swift */; };
+		BF510DC320E97F4E00D38FE0 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF510DC220E97F4E00D38FE0 /* PhotosModel.swift */; };
+		BF510DC620E97F9700D38FE0 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF510DC520E97F9700D38FE0 /* AppConstants.swift */; };
+		BF510DC820E9817800D38FE0 /* LogsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF510DC720E9817800D38FE0 /* LogsHandler.swift */; };
+		BF510DCA20EA135800D38FE0 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF510DC920EA135700D38FE0 /* PhotosDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF36BA9C20E4591C00DAC9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF36BA7C20E4591C00DAC9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF36BA8320E4591C00DAC9FD;
+			remoteInfo = PhotosGrid;
+		};
+		BF36BAA720E4591C00DAC9FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF36BA7C20E4591C00DAC9FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF36BA8320E4591C00DAC9FD;
+			remoteInfo = PhotosGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF32F7ED20EACC9900F128FF /* CustomGridTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridTransition.swift; sourceTree = "<group>"; };
+		BF36BA8420E4591C00DAC9FD /* PhotosGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotosGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF36BA8720E4591C00DAC9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF36BA8C20E4591C00DAC9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF36BA8F20E4591C00DAC9FD /* PhotosGrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotosGrid.xcdatamodel; sourceTree = "<group>"; };
+		BF36BA9120E4591C00DAC9FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF36BA9420E4591C00DAC9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF36BA9620E4591C00DAC9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF36BA9B20E4591C00DAC9FD /* PhotosGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF36BA9F20E4591C00DAC9FD /* PhotosGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridTests.swift; sourceTree = "<group>"; };
+		BF36BAA120E4591C00DAC9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF36BAA620E4591C00DAC9FD /* PhotosGridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosGridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF36BAAA20E4591C00DAC9FD /* PhotosGridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridUITests.swift; sourceTree = "<group>"; };
+		BF36BAAC20E4591C00DAC9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF36BABA20E4595E00DAC9FD /* PhotosHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosHomeViewController.swift; sourceTree = "<group>"; };
+		BF36BABC20E4598C00DAC9FD /* PhotosGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosGridViewController.swift; sourceTree = "<group>"; };
+		BF36BABE20E45AC300DAC9FD /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF36BABF20E45AC300DAC9FD /* PhotosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCollectionViewCell.xib; sourceTree = "<group>"; };
+		BF36BAE320E4B19600DAC9FD /* PhotosAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PhotosAssets.xcassets; sourceTree = "<group>"; };
+		BF510DBD20E97D3400D38FE0 /* PhotoGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridViewModel.swift; sourceTree = "<group>"; };
+		BF510DBF20E97D4F00D38FE0 /* PhotosAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosAPIManager.swift; sourceTree = "<group>"; };
+		BF510DC220E97F4E00D38FE0 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		BF510DC520E97F9700D38FE0 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		BF510DC720E9817800D38FE0 /* LogsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsHandler.swift; sourceTree = "<group>"; };
+		BF510DC920EA135700D38FE0 /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF36BA8120E4591C00DAC9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF36BA9820E4591C00DAC9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF36BAA320E4591C00DAC9FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF36BA7B20E4591C00DAC9FD = {
+			isa = PBXGroup;
+			children = (
+				BF36BA8620E4591C00DAC9FD /* PhotosGrid */,
+				BF36BA9E20E4591C00DAC9FD /* PhotosGridTests */,
+				BF36BAA920E4591C00DAC9FD /* PhotosGridUITests */,
+				BF36BA8520E4591C00DAC9FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF36BA8520E4591C00DAC9FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BA8420E4591C00DAC9FD /* PhotosGrid.app */,
+				BF36BA9B20E4591C00DAC9FD /* PhotosGridTests.xctest */,
+				BF36BAA620E4591C00DAC9FD /* PhotosGridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF36BA8620E4591C00DAC9FD /* PhotosGrid */ = {
+			isa = PBXGroup;
+			children = (
+				BF510DBC20E97CCC00D38FE0 /* AppManager */,
+				BF510DC120E97F3500D38FE0 /* Models */,
+				BF510DBB20E97CC400D38FE0 /* ViewModels */,
+				BF36BAB820E4592200DAC9FD /* ViewControllers */,
+				BF36BAB920E4593800DAC9FD /* Views */,
+				BF510DC420E97F8200D38FE0 /* HelperClasses */,
+				BF36BAC220E4AEEF00DAC9FD /* Resources */,
+				BF36BA9620E4591C00DAC9FD /* Info.plist */,
+			);
+			path = PhotosGrid;
+			sourceTree = "<group>";
+		};
+		BF36BA9E20E4591C00DAC9FD /* PhotosGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BA9F20E4591C00DAC9FD /* PhotosGridTests.swift */,
+				BF36BAA120E4591C00DAC9FD /* Info.plist */,
+			);
+			path = PhotosGridTests;
+			sourceTree = "<group>";
+		};
+		BF36BAA920E4591C00DAC9FD /* PhotosGridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BAAA20E4591C00DAC9FD /* PhotosGridUITests.swift */,
+				BF36BAAC20E4591C00DAC9FD /* Info.plist */,
+			);
+			path = PhotosGridUITests;
+			sourceTree = "<group>";
+		};
+		BF36BAB820E4592200DAC9FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BABA20E4595E00DAC9FD /* PhotosHomeViewController.swift */,
+				BF36BABC20E4598C00DAC9FD /* PhotosGridViewController.swift */,
+				BF510DC920EA135700D38FE0 /* PhotosDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF36BAB920E4593800DAC9FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BABE20E45AC300DAC9FD /* PhotosCollectionViewCell.swift */,
+				BF36BABF20E45AC300DAC9FD /* PhotosCollectionViewCell.xib */,
+				BF32F7ED20EACC9900F128FF /* CustomGridTransition.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BF36BAC220E4AEEF00DAC9FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BA9120E4591C00DAC9FD /* Assets.xcassets */,
+				BF36BA8B20E4591C00DAC9FD /* Main.storyboard */,
+				BF36BAE320E4B19600DAC9FD /* PhotosAssets.xcassets */,
+				BF36BA9320E4591C00DAC9FD /* LaunchScreen.storyboard */,
+				BF36BA8E20E4591C00DAC9FD /* PhotosGrid.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF510DBB20E97CC400D38FE0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BF510DBD20E97D3400D38FE0 /* PhotoGridViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BF510DBC20E97CCC00D38FE0 /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				BF36BA8720E4591C00DAC9FD /* AppDelegate.swift */,
+				BF510DBF20E97D4F00D38FE0 /* PhotosAPIManager.swift */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
+		BF510DC120E97F3500D38FE0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF510DC220E97F4E00D38FE0 /* PhotosModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BF510DC420E97F8200D38FE0 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BF510DC520E97F9700D38FE0 /* AppConstants.swift */,
+				BF510DC720E9817800D38FE0 /* LogsHandler.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF36BA8320E4591C00DAC9FD /* PhotosGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF36BAAF20E4591C00DAC9FD /* Build configuration list for PBXNativeTarget "PhotosGrid" */;
+			buildPhases = (
+				BF36BA8020E4591C00DAC9FD /* Sources */,
+				BF36BA8120E4591C00DAC9FD /* Frameworks */,
+				BF36BA8220E4591C00DAC9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotosGrid;
+			productName = PhotosGrid;
+			productReference = BF36BA8420E4591C00DAC9FD /* PhotosGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF36BA9A20E4591C00DAC9FD /* PhotosGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF36BAB220E4591C00DAC9FD /* Build configuration list for PBXNativeTarget "PhotosGridTests" */;
+			buildPhases = (
+				BF36BA9720E4591C00DAC9FD /* Sources */,
+				BF36BA9820E4591C00DAC9FD /* Frameworks */,
+				BF36BA9920E4591C00DAC9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF36BA9D20E4591C00DAC9FD /* PBXTargetDependency */,
+			);
+			name = PhotosGridTests;
+			productName = PhotosGridTests;
+			productReference = BF36BA9B20E4591C00DAC9FD /* PhotosGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF36BAA520E4591C00DAC9FD /* PhotosGridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF36BAB520E4591C00DAC9FD /* Build configuration list for PBXNativeTarget "PhotosGridUITests" */;
+			buildPhases = (
+				BF36BAA220E4591C00DAC9FD /* Sources */,
+				BF36BAA320E4591C00DAC9FD /* Frameworks */,
+				BF36BAA420E4591C00DAC9FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF36BAA820E4591C00DAC9FD /* PBXTargetDependency */,
+			);
+			name = PhotosGridUITests;
+			productName = PhotosGridUITests;
+			productReference = BF36BAA620E4591C00DAC9FD /* PhotosGridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF36BA7C20E4591C00DAC9FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vishal Sharma";
+				TargetAttributes = {
+					BF36BA8320E4591C00DAC9FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BF36BA9A20E4591C00DAC9FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF36BA8320E4591C00DAC9FD;
+					};
+					BF36BAA520E4591C00DAC9FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BF36BA8320E4591C00DAC9FD;
+					};
+				};
+			};
+			buildConfigurationList = BF36BA7F20E4591C00DAC9FD /* Build configuration list for PBXProject "PhotosGrid" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF36BA7B20E4591C00DAC9FD;
+			productRefGroup = BF36BA8520E4591C00DAC9FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF36BA8320E4591C00DAC9FD /* PhotosGrid */,
+				BF36BA9A20E4591C00DAC9FD /* PhotosGridTests */,
+				BF36BAA520E4591C00DAC9FD /* PhotosGridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF36BA8220E4591C00DAC9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF36BA9520E4591C00DAC9FD /* LaunchScreen.storyboard in Resources */,
+				BF36BAC120E45AC300DAC9FD /* PhotosCollectionViewCell.xib in Resources */,
+				BF36BA9220E4591C00DAC9FD /* Assets.xcassets in Resources */,
+				BF36BA8D20E4591C00DAC9FD /* Main.storyboard in Resources */,
+				BF36BAE420E4B19600DAC9FD /* PhotosAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF36BA9920E4591C00DAC9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF36BAA420E4591C00DAC9FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF36BA8020E4591C00DAC9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF36BABB20E4595E00DAC9FD /* PhotosHomeViewController.swift in Sources */,
+				BF32F7EE20EACC9900F128FF /* CustomGridTransition.swift in Sources */,
+				BF510DCA20EA135800D38FE0 /* PhotosDetailViewController.swift in Sources */,
+				BF510DC820E9817800D38FE0 /* LogsHandler.swift in Sources */,
+				BF510DC620E97F9700D38FE0 /* AppConstants.swift in Sources */,
+				BF510DBE20E97D3400D38FE0 /* PhotoGridViewModel.swift in Sources */,
+				BF510DC320E97F4E00D38FE0 /* PhotosModel.swift in Sources */,
+				BF36BAC020E45AC300DAC9FD /* PhotosCollectionViewCell.swift in Sources */,
+				BF36BABD20E4598C00DAC9FD /* PhotosGridViewController.swift in Sources */,
+				BF36BA9020E4591C00DAC9FD /* PhotosGrid.xcdatamodeld in Sources */,
+				BF36BA8820E4591C00DAC9FD /* AppDelegate.swift in Sources */,
+				BF510DC020E97D4F00D38FE0 /* PhotosAPIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF36BA9720E4591C00DAC9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF36BAA020E4591C00DAC9FD /* PhotosGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF36BAA220E4591C00DAC9FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF36BAAB20E4591C00DAC9FD /* PhotosGridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF36BA9D20E4591C00DAC9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF36BA8320E4591C00DAC9FD /* PhotosGrid */;
+			targetProxy = BF36BA9C20E4591C00DAC9FD /* PBXContainerItemProxy */;
+		};
+		BF36BAA820E4591C00DAC9FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF36BA8320E4591C00DAC9FD /* PhotosGrid */;
+			targetProxy = BF36BAA720E4591C00DAC9FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF36BA8B20E4591C00DAC9FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF36BA8C20E4591C00DAC9FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF36BA9320E4591C00DAC9FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF36BA9420E4591C00DAC9FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF36BAAD20E4591C00DAC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF36BAAE20E4591C00DAC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF36BAB020E4591C00DAC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotosGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.PhotosGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF36BAB120E4591C00DAC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotosGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.PhotosGrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF36BAB320E4591C00DAC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotosGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.PhotosGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotosGrid.app/PhotosGrid";
+			};
+			name = Debug;
+		};
+		BF36BAB420E4591C00DAC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotosGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.PhotosGridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotosGrid.app/PhotosGrid";
+			};
+			name = Release;
+		};
+		BF36BAB620E4591C00DAC9FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotosGridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.PhotosGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotosGrid;
+			};
+			name = Debug;
+		};
+		BF36BAB720E4591C00DAC9FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhotosGridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Vishal.PhotosGridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotosGrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF36BA7F20E4591C00DAC9FD /* Build configuration list for PBXProject "PhotosGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF36BAAD20E4591C00DAC9FD /* Debug */,
+				BF36BAAE20E4591C00DAC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF36BAAF20E4591C00DAC9FD /* Build configuration list for PBXNativeTarget "PhotosGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF36BAB020E4591C00DAC9FD /* Debug */,
+				BF36BAB120E4591C00DAC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF36BAB220E4591C00DAC9FD /* Build configuration list for PBXNativeTarget "PhotosGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF36BAB320E4591C00DAC9FD /* Debug */,
+				BF36BAB420E4591C00DAC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF36BAB520E4591C00DAC9FD /* Build configuration list for PBXNativeTarget "PhotosGridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF36BAB620E4591C00DAC9FD /* Debug */,
+				BF36BAB720E4591C00DAC9FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF36BA8E20E4591C00DAC9FD /* PhotosGrid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF36BA8F20E4591C00DAC9FD /* PhotosGrid.xcdatamodel */,
+			);
+			currentVersion = BF36BA8F20E4591C00DAC9FD /* PhotosGrid.xcdatamodel */;
+			path = PhotosGrid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF36BA7C20E4591C00DAC9FD /* Project object */;
+}
